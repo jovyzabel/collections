@@ -10,5 +10,9 @@ public class Main {
 
         Dictionnaire dict = new Dictionnaire();
         dict.show();
+
+        File file = new File();
+        file.showQueue();
+        file.showDequeue();
     }
 }
